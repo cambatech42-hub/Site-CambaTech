@@ -12,6 +12,14 @@ const HeroSection: React.FC = () => {
     }
   };
 
+  const handleWhatsAppClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    const phoneNumber = '5549981144125'; // Formato internacional: +55 54 9 8114-4125
+    const message = 'Olá! Gostaria de saber mais sobre os serviços da CambaTech.';
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, '_blank');
+  };
+
   return (
     <section id="home" className="relative pt-12 pb-24 lg:pb-32 bg-white overflow-hidden">
       <div className="absolute inset-0">
@@ -38,11 +46,11 @@ const HeroSection: React.FC = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="#contact" 
-              onClick={handleNavClick}
+              href="#whatsapp" 
+              onClick={handleWhatsAppClick}
               className="bg-gradient-to-r from-orange-500 to-orange-600 text-white font-bold py-4 px-8 rounded-full hover:from-orange-600 hover:to-orange-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
             >
-              Comece Agora
+              Fale Conosco
             </a>
             <a 
               href="#services" 
