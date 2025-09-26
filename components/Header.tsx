@@ -34,7 +34,7 @@ const Header: React.FC = () => {
               </a>
             ))}
           </nav>
-          <a href="#contact" onClick={handleNavClick} className="hidden md:inline-block bg-blue-900 text-white font-semibold py-2 px-6 rounded-full hover:bg-blue-800 transition-all duration-300 transform hover:scale-105">
+          <a href="#contact" onClick={handleNavClick} className="hidden md:inline-block bg-red-600 text-white font-semibold py-2 px-6 rounded-full hover:bg-red-700 transition-all duration-300 transform hover:scale-105">
             Comece Agora
           </a>
         </div>
