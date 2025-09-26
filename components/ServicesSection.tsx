@@ -8,19 +8,19 @@ const servicesData = [
     icon: <ChatbotIcon className="h-12 w-12" />,
     title: 'Chatbots com IA Generativa',
     description: 'Crie conversas fluidas e naturais que resolvem problemas complexos e encantam seus clientes, 24/7.',
-    image: '/log.png',
+    image: '/2.png',
   },
   {
     icon: <AnalysisIcon className="h-12 w-12" />,
     title: 'Análise de Sentimento',
     description: 'Entenda a voz do seu cliente em tempo real. Monitore feedbacks, identifique tendências e melhore a satisfação.',
-    image: '/logom.jpeg',
+    image: '/3.png',
   },
   {
     icon: <AutomationIcon className="h-12 w-12" />,
     title: 'Automação de Processos (RPA)',
     description: 'Libere sua equipe de tarefas repetitivas. Automatize workflows e aumente a eficiência operacional com nossa IA.',
-    image: '/build.png',
+    image: '/4.png',
   },
 ];
 

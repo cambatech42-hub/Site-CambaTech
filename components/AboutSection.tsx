@@ -20,7 +20,7 @@ const AboutSection: React.FC = () => {
           
           <div className="relative h-96 flex items-center justify-center bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl overflow-hidden shadow-inner">
             <img 
-              src="/build.png" 
+              src="/1.png" 
               alt="Construção e desenvolvimento de soluções tecnológicas" 
               className="w-full h-full object-cover rounded-xl"
             />
