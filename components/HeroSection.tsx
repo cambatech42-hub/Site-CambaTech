@@ -14,7 +14,7 @@ const HeroSection: React.FC = () => {
 
   const handleWhatsAppClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
-    const phoneNumber = '5549981144125'; // Formato internacional: +55 54 9 8114-4125
+    const phoneNumber = '5554981144125';
     const message = 'Olá! Gostaria de saber mais sobre os serviços da CambaTech.';
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
